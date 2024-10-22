@@ -1,6 +1,6 @@
 Multiple Linear Regression Model with Regularization Techniques
 Project Overview
-This project demonstrates the development of a Multiple Linear Regression model to predict [TARGET VARIABLE] using the Toyota Corolla dataset. Various data preprocessing techniques, data validation, and regularization methods like Ridge and Lasso were applied to improve model performance.
+This project demonstrates the development of a Multiple Linear Regression model to predict [PRICE] using the Toyota Corolla dataset. Various data preprocessing techniques, data validation, and regularization methods like Ridge and Lasso were applied to improve model performance.
 
 Table of Contents
 Dataset Overview
@@ -51,22 +51,17 @@ Plots showing the distribution of important features like Price, KM, and Age.
 Modeling: Multiple Linear Regression
 We implemented a Multiple Linear Regression model to predict the price of a car. The basic steps involved:
 
-Defining the independent variables (features) and the dependent variable (price).
+Defining the independent variables (all the FEATURES) and the dependent variable (price).
 Splitting the dataset into training and test sets (e.g., 80-20 split).
 Fitting the model using the training data and evaluating it on the test data.
 Regularization Techniques
 To prevent overfitting and improve generalization, we applied the following regularization techniques:
 
-Ridge Regression:
-
-Added L2 penalty to reduce model complexity.
-Controlled the size of coefficients by introducing a regularization parameter (alpha).
 Lasso Regression:
 
 Added L1 penalty to perform both regularization and feature selection by shrinking coefficients of less important features to zero.
-Elastic Net (optional):
 
-Combined L1 and L2 regularization techniques, offering a balance between Ridge and Lasso.
+
 Model Evaluation and Validation
 The model's performance was evaluated using the following metrics:
 
